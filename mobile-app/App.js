@@ -133,7 +133,7 @@ export default function App() {
     setCargando(true);
     try {
       // IMPORTANTE: Cambia esta URL por la de tu API en Vercel
-      const response = await fetch('https://tu-api.vercel.app/api/generarPlan', {
+      const response = await fetch('https://app-movil-tmb-git-main-tri-naranjus-projects.vercel.app/api/generarPlan', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
